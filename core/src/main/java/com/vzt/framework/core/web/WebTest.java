@@ -54,7 +54,7 @@ public class WebTest extends BaseTest<WebDriver> {
 				ScreenshotUtil util = new ScreenshotUtil(getDriver(),
 						getScreenShotDir());
 				util.captureScreenShot(fileName);
-*/			}
+*/			//}
 			if (!(driver instanceof InternetExplorerDriver)) {
 				driver.close();
 			}

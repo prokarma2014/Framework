@@ -79,7 +79,7 @@ public abstract class BaseTest<T> {
                             + screenShotDirName);
                 }
                 screenShotDir = new File(resource.getFile());
-  */          }
+  */         // }
 		} catch (IOException iexcp) {
 			frameworkLogger
 					.error("Error while initializing the test using the testconfig.properties",

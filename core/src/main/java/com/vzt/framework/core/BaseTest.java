@@ -71,7 +71,7 @@ public abstract class BaseTest<T> {
 					.getResourceAsStream(configFile));
 			testProperties = new TestConfiguration(properties);
 			frameworkLogger.info(testProperties.toString());
-			String screenShotDirName = testProperties.getConfig("test.screenshotdir");
+/*			String screenShotDirName = testProperties.getConfig("test.screenshotdir");
             if (screenShotDirName != null) {
                 URL resource = BaseTest.class.getClassLoader().getResource(screenShotDirName);
                 if (resource == null) {
@@ -79,7 +79,7 @@ public abstract class BaseTest<T> {
                             + screenShotDirName);
                 }
                 screenShotDir = new File(resource.getFile());
-            }
+  */          }
 		} catch (IOException iexcp) {
 			frameworkLogger
 					.error("Error while initializing the test using the testconfig.properties",

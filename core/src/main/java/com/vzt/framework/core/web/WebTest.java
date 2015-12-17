@@ -48,13 +48,13 @@ public class WebTest extends BaseTest<WebDriver> {
 	@AfterMethod(alwaysRun = true)
 	protected void closeBrowser(ITestResult result, Method testMethod) {
 		if (driver != null && !reset()) {
-			if (result.getStatus() == ITestResult.FAILURE) {
+/*			if (result.getStatus() == ITestResult.FAILURE) {
 				String fileName = new StringBuilder(testMethod.getName())
 						.append(new Date().getTime()+".png").toString();
 				ScreenshotUtil util = new ScreenshotUtil(getDriver(),
 						getScreenShotDir());
 				util.captureScreenShot(fileName);
-			}
+*/			}
 			if (!(driver instanceof InternetExplorerDriver)) {
 				driver.close();
 			}

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="95" started-at="2015-12-16T18:47:02Z" finished-at="2015-12-16T18:47:03Z">
+  <suite name="Command line suite" duration-ms="90" started-at="2015-12-17T14:16:55Z" finished-at="2015-12-17T14:16:55Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="95" started-at="2015-12-16T18:47:02Z" finished-at="2015-12-16T18:47:03Z">
+    <test name="Command line test" duration-ms="90" started-at="2015-12-17T14:16:55Z" finished-at="2015-12-17T14:16:55Z">
       <class name="com.vzt.test.core.BaseDataProviderTest">
-        <test-method status="PASS" signature="initializeConfig(java.lang.String)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeConfig" is-config="true" duration-ms="757" started-at="2015-12-16T13:47:02Z" finished-at="2015-12-16T13:47:02Z">
+        <test-method status="PASS" signature="initializeConfig(java.lang.String)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeConfig" is-config="true" duration-ms="980" started-at="2015-12-17T09:16:54Z" finished-at="2015-12-17T09:16:55Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeConfig -->
-        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeTest" is-config="true" duration-ms="2" started-at="2015-12-16T13:47:03Z" finished-at="2015-12-16T13:47:03Z">
+        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeTest" is-config="true" duration-ms="2" started-at="2015-12-17T09:16:55Z" finished-at="2015-12-17T09:16:55Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTest -->
-        <test-method status="PASS" signature="testDataProvider1(java.lang.String, float, double, java.util.Calendar)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="testDataProvider1" duration-ms="5" started-at="2015-12-16T13:47:03Z" data-provider="default" finished-at="2015-12-16T13:47:03Z">
+        <test-method status="PASS" signature="testDataProvider1(java.lang.String, float, double, java.util.Calendar)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="testDataProvider1" duration-ms="5" started-at="2015-12-17T09:16:55Z" data-provider="default" finished-at="2015-12-17T09:16:55Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataProvider1 -->
-        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeTest" is-config="true" duration-ms="0" started-at="2015-12-16T13:47:03Z" finished-at="2015-12-16T13:47:03Z">
+        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeTest" is-config="true" duration-ms="0" started-at="2015-12-17T09:16:55Z" finished-at="2015-12-17T09:16:55Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTest -->
-        <test-method status="PASS" signature="testDataProvider1(java.lang.String, float, double, java.util.Calendar)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="testDataProvider1" duration-ms="0" started-at="2015-12-16T13:47:03Z" data-provider="default" finished-at="2015-12-16T13:47:03Z">
+        <test-method status="PASS" signature="testDataProvider1(java.lang.String, float, double, java.util.Calendar)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="testDataProvider1" duration-ms="1" started-at="2015-12-17T09:16:55Z" data-provider="default" finished-at="2015-12-17T09:16:55Z">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataProvider1 -->
-        <test-method status="PASS" signature="testDataProvider2(java.lang.String, com.vzt.test.core.TestDataObj1)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="testDataProvider2" duration-ms="0" started-at="2015-12-16T13:47:03Z" data-provider="default" finished-at="2015-12-16T13:47:03Z">
+        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeTest" is-config="true" duration-ms="1" started-at="2015-12-17T09:16:55Z" finished-at="2015-12-17T09:16:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1392934]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="testDataProvider2(java.lang.String, com.vzt.test.core.TestDataObj1)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="testDataProvider2" duration-ms="0" started-at="2015-12-17T09:16:55Z" data-provider="default" finished-at="2015-12-17T09:16:55Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataProvider2 -->
-        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeTest" is-config="true" duration-ms="0" started-at="2015-12-16T13:47:03Z" finished-at="2015-12-16T13:47:03Z">
+        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeTest" is-config="true" duration-ms="0" started-at="2015-12-17T09:16:55Z" finished-at="2015-12-17T09:16:55Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +130,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTest -->
-        <test-method status="PASS" signature="testDataProvider2(java.lang.String, com.vzt.test.core.TestDataObj1)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="testDataProvider2" duration-ms="1" started-at="2015-12-16T13:47:03Z" data-provider="default" finished-at="2015-12-16T13:47:03Z">
+        <test-method status="PASS" signature="testDataProvider2(java.lang.String, com.vzt.test.core.TestDataObj1)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="testDataProvider2" duration-ms="0" started-at="2015-12-17T09:16:55Z" data-provider="default" finished-at="2015-12-17T09:16:55Z">
           <params>
             <param index="0">
               <value>
@@ -135,17 +146,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataProvider2 -->
-        <test-method status="PASS" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.vzt.test.core.BaseDataProviderTest@1ec1f0c]" name="initializeTest" is-config="true" duration-ms="0" started-at="2015-12-16T13:47:03Z" finished-at="2015-12-16T13:47:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1392934]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeTest -->
       </class> <!-- com.vzt.test.core.BaseDataProviderTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

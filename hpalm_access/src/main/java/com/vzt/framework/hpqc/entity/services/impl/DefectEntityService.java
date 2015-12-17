@@ -58,7 +58,7 @@ public class DefectEntityService extends BaseEntityService
     public EntityBean updateDefect(String entityId)
     {
             EntityBean entityBean = null;
-            entityBean = super.updateEntity(myEntityType, entityId);
+            entityBean = super.updateEntity(myEntityType, entityId, "");
  
             return entityBean;
     }

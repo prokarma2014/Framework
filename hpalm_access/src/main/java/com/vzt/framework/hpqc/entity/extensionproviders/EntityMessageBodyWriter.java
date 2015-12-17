@@ -19,21 +19,21 @@ import com.vzt.framework.hpqc.model.alm.EntityBean;
 @Produces("application/xml")
 public class EntityMessageBodyWriter implements MessageBodyWriter<EntityBean> {
 
-	
+	@Override
 	public long getSize(final EntityBean hpqcEntity, final Class<?> type, final Type genericType,
 			final Annotation[] annotations, final MediaType mediaType) {
 
 		return 0;
 	}
 
-	
+	@Override
 	public boolean isWriteable(final Class<?> type, final Type genericType, final Annotation[] annotations,
 			final MediaType mediaType) {
 
 		return type == EntityBean.class;
 	}
 
-	
+	@Override
 	public void writeTo(final EntityBean hpqcEntity, final Class<?> type, final Type genericType,
 			final Annotation[] annotations, final MediaType mediaType, final MultivaluedMap<String, Object> httpHeaders,
 			OutputStream entityStream) throws IOException, WebApplicationException {

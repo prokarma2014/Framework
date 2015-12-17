@@ -66,6 +66,8 @@ public class JAXWSTestFactory {
 		expected_Response_Code = (testData.getExpected_Response_Code()!= null)?testData.getExpected_Response_Code():"";
 		response = (testData.getRespone()!= null)?testData.getRespone():"";
 		envelope = (testData.getSoapEnvelope()!= null)?testData.getSoapEnvelope():"";
+		
+		System.out.println("testData" + testData.toString());
 	}
 
 
@@ -79,7 +81,7 @@ public class JAXWSTestFactory {
 		Response outputResponse  = null;
 		
 		try {
-			logger.info(" Inside getResponse ()");
+			System.out.println(" Inside getResponse ()");
 			
 			Map<String, String> authhdrs = new HashMap<String, String>();
 			authhdrs.put(header_Key,header_Value);
@@ -97,7 +99,7 @@ public class JAXWSTestFactory {
 
 		} catch (Exception exception) {
 			
-			logger.info(exception.getMessage(), exception);
+			System.out.println(exception.getMessage());
 
 		}
 		return outputResponse;
@@ -140,7 +142,7 @@ public class JAXWSTestFactory {
 	private String validateValidResponse(Response response) {
 
 		
-		logger.debug(response.getBody().asString());
+		System.out.println(response.getBody().asString());
 		logger.debug(response.body().asString());
 		
 		return response.body().asString();

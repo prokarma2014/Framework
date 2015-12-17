@@ -17,12 +17,14 @@ import com.vzt.framework.hpqc.model.alm.ListOfEntitiesBean;
 
 public class EntitiesMessageBodyReader implements MessageBodyReader<ListOfEntitiesBean> {
 
+	@Override
 	public boolean isReadable(final Class<?> type, final Type genericType, final Annotation[] annoatations,
 			final MediaType mediaType) {
 
 		return type == ListOfEntitiesBean.class;
 	}
 
+	@Override
 	public ListOfEntitiesBean readFrom(Class<ListOfEntitiesBean> type, final Type genericType,
 			final Annotation[] annotations, final MediaType mediaType, final MultivaluedMap<String, String> httpHeaders,
 			final InputStream entitiesStream) throws IOException, WebApplicationException {

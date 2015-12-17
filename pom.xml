@@ -11,8 +11,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <modules>
-  	<module>data_access</module>
-  	<module>hpalm_access</module>
+  	<module>data_access</module>  	
   	<module>core</module>
+  	<module>hpalm_access</module>
   </modules>
 </project>

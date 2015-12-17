@@ -16,7 +16,7 @@ public interface ALMService {
 	public EntityBean createEntity(String entityType, String entityName,
 			String parentId, String testId, String testConfigId);
 
-	public EntityBean updateEntity(String entityType, String entityId);
+	public EntityBean updateEntity(String entityType, String entityId, String entityStatus);
 
 	public void deleteEntity(String entityType, String entityId);
 
